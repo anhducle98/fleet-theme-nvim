@@ -1,7 +1,8 @@
 local M = {}
 
 M.palette = {
-    background = "#181818",
+    -- background = "#181818",
+    background = "#000000",
     darkest = "#1e1e1e",
     darker = "#292929",
     dark = "#898989",
