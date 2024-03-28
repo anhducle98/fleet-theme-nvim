@@ -13,7 +13,7 @@ function M.setup()
         -- lCursor      = { }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
         -- CursorIM     = { }, -- like Cursor, but used when in IME mode |CursorIM|
         -- CursorColumn = { }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
-        CursorLine   = { bg = palette.darker }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
+        CursorLine   = { bg = palette.near_black }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
         Directory    = { fg = palette.cyan }, -- directory names (and other special names in listings)
         DiffAdd      = { fg = palette.diff_plus }, -- diff mode: Added line |diff.txt|
         DiffChange   = { fg = palette.blue_accent }, -- diff mode: Changed line |diff.txt|
@@ -35,7 +35,7 @@ function M.setup()
         -- Substitute   = { }, -- |:substitute| replacement text highlighting
         LineNr       = { fg = palette.dark_gray }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
         CursorLineNr = { bg = palette.darker, fg = palette.light, bold = true}, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-        MatchParen   = { bg = palette.darker }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
+        MatchParen   = { bg = palette.dark }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
         -- ModeMsg      = { }, -- 'showmode' message (e.g., "-- INSERT -- ")
         -- MsgArea      = { }, -- Area for messages and cmdline
         -- MsgSeparator = { }, -- Separator for scrolled messages, `msgsep` flag of 'display'
